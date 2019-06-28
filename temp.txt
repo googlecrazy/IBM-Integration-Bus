@@ -1,0 +1,434 @@
+EPS SOA Support Activities 
+Personal 
+4386 2800 1899 8546 475 
+oder C24791153
+
+WAC1828250953
+
+Kingshuk: 528602 
+Sai : 
+Mike C 527430
+
+800 328 9500
+iibadmin
+Hur51ey
+
+Liya Reddy Konatam Account : 02-86718  185.95 Hospital bill 
+
+
+k307266  toolkit webadmin pass
+reddy321# 
+reddy321#
+
+7821 SOAP Port for EG1 
+/opt/IBM/mqsi/iib-10.0.0.10/server/bin
+/opt/IBM/mqsi/iib-10.0.0.4/server/ODBC/unixodbc
+Log4J classes jar shall go to /var/mqsi/shared-classes
+
+awa00106  - non prod
+awa00319 - prod
+iibadmin
+Hur51ey
+
+soapaymentnonprd@deluxe.com
+Hur51eyn0npr0d
+soapaymentprd@deluxe.com
+Hur51eypr0d
+
+soapaymentprd@deluxe.com   request it 
+
+\\awa00106\d$\IIB\IIBToolkit\QA_WKSP\QA_ALA00046  
+IIB Dev			Linux Server unix-l-ALA00045 	EISSOA, mqm, mqbrkrs
+IIB QA 			Linux Server unix-l-ALA00046  	EISSOA, mqm, mqbrkrs
+IIB UAT			Linux Server unix-l-ALA00310  	EISSOA, mqm, mqbrkrs
+IIB XUAT		Linux Server unix-l-ALA00311  	EISSOA, mqm, mqbrkrs  new Kona@143
+IIB Preprod-1	Linux Server unix-l-ALA00312  	EISSOA, mqm, mqbrkrs Maya143
+IIB Preprod-2	Linux Server unix-l-ALA00313	EISSOA, mqm, mqbrkrsMaya143
+IIB ProdFS		Linux Server unix-l-ALA00373	EISSOA, mqm, mqbrkrs
+IIB ProdFS		Linux Server unix-l-ALA00374	EISSOA, mqm, mqbrkrs
+IIB Prodnon-FS 	Linux Server unix-l-ALA00375	EISSOA, mqm, mqbrkrs(FNTS Data center) Maya143
+IIB Prodnon-FS 	Linux Server unix-l-ALA00376	EISSOA, mqm, mqbrkrs (FNTS Data center)
+IIB ProdServer  Linux Server unix-l-ALA00585	EISSOA, mqm, mqbrkrs  Tier 1 Cloud
+IIB ProdServer 	Linux Server unix-l-ALA00586	EISSOA, mqm, mqbrkrs
+
+https://soasvc.xuat.deluxe.com:443/deluxe/services/taxservice/V1.0
+k307266@ALA00563 Ravi18
+k307266@ALA00564 Ravi18
+k307266@ALA00565 Ravi18
+k307266@ALA00566 Ravi18
+k307266@ALA00567 Ravi18
+
+
+
+Do1QJSw;
+ SYSTEM.DEF.SVRCONN/TCP/ALA00045(1414);SYSTEM.DEF.SVRCONN/TCP/161.211.70.76(1414);SYSTEM.DEF.SVRCONN/TCP/161.211.71.60(1414);SYSTEM.DEF.SVRCONN/TCP/10.111.17.87(1414);SYSTEM.DEF.SVRCONN/TCP/161.211.5.81(1414);SYSTEM.DEF.SVRCONN/TCP/161.211.5.82(1414) 
+ 
+ 800.928.9500  
+ LU4Cdkd7TyEt
+ 2018-04-15 08:38:
+ 
+ unix-a-ddgsaa59
+ unix-a-ddguaa73
+ unix-a-ddguaa75
+ unix-a-domdaa80
+ unix-a-dompaa50
+ unix-a-dompaa52
+ unix-a-dompaa54
+ unix-a-domsaa82
+ unix-l-domdlq01
+ unix-l-domqlq01 - not 
+ unix-s-ddgdsa36
+ unix-s-ddgssa33
+ *ddgssa42
+ *ddgusa47
+ *degpsa05
+ *degpsa60
+ *degpsa61
+ *degpsa62
+ *degpsa63
+ *degxsa65
+ *dgrdsa14
+ *grdbs11
+ *grdbs19
+ 
+ URLS: F5 URL FOR EG 6 
+ htpp://esb-fs.preprod.deluxe.com:7826/deluxe/services/FIApproved 
+ 
+ QA:  http://ala00046:7826/deluxe/services/V1.2/FIApprovedAccountNumber 
+ 
+ UAT: http://ala00310:7826/deluxe/services/V1.2/FIApprovedAccountNumber 
+ 
+ http://ala00312:7826/deluxe/services/V1.2/FIApprovedAccountNumber 
+ 
+ 
+ http://e-soa-v.prod.deluxe.com:9999/deluxe/services/finance/V1.2/FIApprovedAccountNumber
+ 
+ http://esb-fs.preprod.deluxe.com:7826/deluxe/services/V1.2/FIApprovedAccountNumber 
+  
+  
+  https://soasvc.deluxe.com/deluxe/services/taxservice/V1.0 
+  https://soasvc.xuat.deluxe.com/deluxe/services/taxservice/V1.0  
+  
+  Compile the STP for pre prod 
+  
+  
+  http://esb-fs.prod.deluxe.com:7826/deluxe/services/V1.2/FIApprovedAccountNumber  
+  
+  
+ RELEASE TO API 
+ ONE INSTANCE HAS TO TWO IIB 
+ 
+ 
+ mqsicreatebroker IB10NODE -i wbrkuid -a wbrkpw -q IB9QMGR
+ mqsicreatebroker IBNODE -q myQmgr
+ mqsicreatebroker 
+ mqsireportproperties  ESBD1BK1 -b httplistener -o HTTPConnector -a
+ mqsireportproperties  ESBD1BK1 -b httplistener -o HTTPListener -a
+ mqsireportproperties  ESBD1BK1 -c AllTypes -o AllReportableEntityNames -r
+ mqsireportproperties ESBD1BK1 -b httplistener -o HTTPSConnector -n port
+ 
+ runmqsc qmgr_name
+display queue(SYSTEM.BROKER*)
+
+DEFINE QLOCAL('SOA.LOCAL.TEST.ONE')
+DEFINE QLOCAL('ESB.LOG.INPUT')
+
+http://ot4i.github.io/iib-tutorials/
+
+mqsichangeflowmonitoring IIBSOA -c active -e SOAEG1 -k RaviSampleOne -j
+mqsireportflowmonitoring IIBSOA -e SOAEG1 -k RaviSampleOne -f SampleMF -n
+
+$SYS/Broker/IIBSOA/Monitoring/SOAEG1/SampleMF 
+$SYS/Broker/IIBSOA/Status/ExecutionGroup/SOAEG1
+
+
+mqsipackagebar -w C:\Users\k307266\IBM\IIBT10\workspace -a Ravi.PlaceOrderflow.bar  FSOrderESB/Service/PlaceOrder.msgflow
+BAR	D:/IIB/IIBToolkit/QA_WKSP/QA_ALA00046/EG_10_BAR/REQ0025209_PlaceOrder.mf.bar
+
+C:\Program Files\IBM\IIB\10.0.0.10>mqsicreatebar -data C:\ESBDeluxeWS\FSPlaceOrder -b C:\ESBDeluxeWS\FSPlaceOrder\BARfiles\Ravi.PlaceOrderflow.bar -compileOnly 
+ -o FSOrderESB/Service/PlaceOrder.msgflow  -trace -v C:\AppLogs\trace.log 
+5422 
+
+Vinyl: REQ0035053  
+
+CHG0049350_REQ0035053_PlaceOrderflow.mf.bar 
+CHG0049350_REQ0035578_OrderNotification_Apr2018.mf.bar
+CHG0049350_REQ0035063_OrderHistoryDetailReply.mf.bar
+CHG0049350_REQ0035063_OrderHistoryDetailReply_Transform_CIToESB.xsl.bar
+
+
+
+  Place Order Request bar: Mine REQ0035053_PlaceOrderflow.mf.bar Old : REQ0025209_PlaceOrder.mf.bar
+  OrderDetailHistory bar : Mine: REQ0035063_OrderHistoryDetailReply.mf.bar  Old: REQ0015593_OrderHistoryDetailReply.mf.bar
+  Order Notification bar: BAR	D:/IIB/IIBToolkit/QA_WKSP/QA_ALA00046/EG_04_BAR/OrderNotification_MsgFlow.mf.bar 
+  Old: BAR	D:/IIB/IIBToolkit/QA_WKSP/QA_ALA00046/EG_10_BAR/REQ0014459_OrderSubmitRequest_ESBToCI.xsl.bar
+  
+						: Mine: REQ0035578 
+					REQ0035053:	FSOrderESB Message flow :Place Order   QA: EG10 
+					REQ0035063:	OrderHistoryDetailReply				   QA: EG08 
+					REQ0035578: OrderNotification 					   QA: EG04   deployed: Deployment Time	Fri Mar 16 15:07:03 CDT 2018
+
+	
+		UAT
+	PlaceOrder Request Bar:     D:/IIB/IIBToolkit/UAT_WKSP/UAT_ALA00310/EG_10_BAR/REQ0026073_REQ0025209_PlaceOrder.mf.bar			
+	OrderDetailHistory bar : BAR	D:/IIB/IIBToolkit/UAT_WKSP/UAT_ALA00310/EG_08_BAR/421348_400204067_OrderHistoryDetailReply.mf.bar
+							BAR	D:/IIB/IIBToolkit/UAT_WKSP/UAT_ALA00310/EG_08_BAR/REQ0026276 _REQ0026188_OrderHistoryDetailReply_Transform_CIToESB.xsl.bar
+	OrderNotification: BAR	D:/IIB/IIBToolkit/UAT_WKSP/UAT_ALA00310/EG_04_BAR/REQ0026488_OrderNotification_MsgFlow.mf.bar  
+	
+	
+	Pre Prod :
+
+		BAR	D:/IIB/IIBToolkit/PREPROD_WKSP/PREPROD_ALA00312/EG_04_BAR/REQ0026502_REQ0026426_OrderNotification_MsgFlow.mf.bar 
+		BAR	D:/IIB/IIBToolkit/PREPROD_WKSP/PREPROD_ALA00312/EG_08_BAR/421348_400204067_OrderHistoryDetailReply.mf.bar 
+		BAR	D:/IIB/IIBToolkit/PREPROD_WKSP/PREPROD_ALA00312/EG_10_BAR/REQ0026502_REQ0026073_REQ0025209_PlaceOrder.mf.bar
+		BAR	D:/IIB/IIBToolkit/PREPROD_WKSP/PREPROD_ALA00312/EG_08_BAR/REQ0026502_REQ0026188_OrderHistoryDetailReply_Transform_CIToESB.xsl.bar
+
+	change Order for DB changes for Prod : CHG0049684 
+	CHG0049350
+	
+	 
+
+AprilRelease2018			
+server Name : degpsa05 
+ 
+ 
+ find . -name *.* |grep -nHR '6900006492' *
+ find . -name *.* |grep -nHR '6900006492' *
+ find . -name \*.gz -print0|xargs -0 zgrep  "BSINET"
+ find -name \*.gz -print0 | xargs -0 zgrep "failure"
+  
+  
+  if they can be separated 
+  OrderPro and BISNET OrderPro part into pre prod 
+  
+  FIApproved account services - Order Pro and Comet 
+  leave tge FIApproved account services 
+  Seperated - 
+  
+  mqsiapplybaroverride –b D:\BAR_Files\ALA00373\2018\Apr\CHG0049350\CHG0049350_REQ0035053_PlaceOrderflow.mf.bar -m Service.PlaceOrder#Validate.validateMaster
+  
+  New change PRod CHG0050033  
+  PlaceOrder: CHG0050033_REQ0035053_PlaceOrderflow.mf.bar
+  New CHange XUAT CHG0050081
+  PlaceOrder: CHG0050081_REQ0035053_PlaceOrderflow.mf.bar
+  
+  DP Creds 
+  DPASOA  ma$t3r$0A 
+
+	   
+
+	SOADPREAD is configured on all the DEC datapower appliances
+	passwd=12Deluxe34
+
+	DPASOA - ma$t3r$0A
+
+	https://aza00009b:9090/login.xml  dev/qa/uathttps://aza00308b:9090/login.xml  xuathttps://aza00405b:9090/login.xml  preprodhttps://aza00452b:9090/login.xml  prodhttps://aza00453b:9090/login.xml  prod 
+ 
+
+  'http://domdla07:20080/paymentservice/services/PaymentService' timed out
+  
+  REQ0036837  - WR41 displayPrice display for OrderNotification
+  BAR	D:/IIB/IIBToolkit/QA_WKSP/QA_ALA00046/EG_04_BAR/REQ0035578_OrderNotification_Apr2018.mf.bar
+  REQ0036837_OrderNotification_Apr2018.mf.bar
+  
+
+   New change PRod BankCorp 
+  QA UAT:  REQ0037225_PlaceOrderflow.mf.bar   
+  
+  Raghav 2L 
+  Rahim 2L 
+  Hema 4.5L    236000+245534+40000   5.36K   5,21534 	
+  Vasavi 1L 
+  Uday .5L 
+  
+  Change Task and assign to SOA 
+  DB Change request and Emergency change order 
+  Prep bar files and put it there
+   nnn
+  
+  XUAT : CHG0050527
+  
+  ECOM Change CHG0050375_REQ0037337_DFS_OrderDetail_MsgFlow.mf.bar
+  
+  mqsireadbar -b C:\Users\k307266\Desktop\RaviTemp\BarOverride\EComm\CHG0038661_REQ0023503_DFS_OrderDetail_MsgFlow.mf.bar -r >>C:\Users\k307266\Desktop\RaviTemp\BarOverride\Old.log
+  mqsireadbar -b C:\Users\k307266\Desktop\RaviTemp\BarOverride\EComm\CHG0050375_REQ0037337_DFS_OrderDetail_MsgFlow.mf.bar -r >>C:\Users\k307266\Desktop\RaviTemp\BarOverride\New.log
+  
+  
+  Code     Category Description
+0             Personal Check
+1             Personal Deposit
+2             Business Check 
+3             Business Deposit
+4             Savings Withdrawal
+5             Other
+9             No Product Category Specified
+
+  
+  
+  TODO
+  1: FS DElivery : Create a Contact sheet 
+  2: Create Project Exection folders
+  3: Place Order error/exception is not happening ID 
+  
+  
+  
+  Servicesourcesystemid SBWSP   SBBB    
+  If FS2 then To Settlement
+  else Payment Gateway 
+  
+  http://pay.qa.deluxe.com/swagger-ui
+  
+  SOA: Update Place Order to correct BANCORP defect
+		Flow:  CHG0049371_REQ0037225_PlaceOrderflow_May2018.mf.bar
+		WR41:  OrderNotification displaying the discountPrice as $00.00 
+		CHG0049371_REQ0036837_OrderNotification_May2018.mf.bar
+  5859752117203338
+  
+  
+  Merchant Name	Merchant ID
+Bags and Bows	057697
+WholeStyle Packaging	241650
+Checksbydeluxe.com	181457
+DP1003payment_method_nonce or credit_card_token were not prov
+
+
+
+REQ0038336  Cancel Notification Email Defect 4940 
+REQ0038336_OrderNotification_Jun2018.mf.bar
+
+REQ0038386_PaymentGatewayForSAP_APP
+
+BAR	D:/IIB/IIBToolkit/QA_WKSP/QA_ALA00046/EG_04_BAR/414685_400129871_SAPPaymentRequestProcessor_23Apr2015.bar
+
+
+ REQ0039192
+ 
+ XUAT PROD Change Tasks
+ FSCWR-183 Estimates 
+ 
+ 
+ CHG0051974_REQ0038336_OrderNotification_Jun2018.mf.bar
+ CHG0051969_REQ0038336_OrderNotification_Jun2018.mf.bar
+ 
+ 
+ 1.	DCOM-8540 Erwin Briana : dfs - Incident INC0136872_ Some custom logos do not stream properly on reorders  : Subbu and Pujitha to deliver   : DFS_NEBS_Orderdetail_Msg_Flow  : Aug01 Release
+2.	DCOM-8354 : SD & DFS_DEFECT_Second ink color is displaying on the address instead of Co. Name on a Comet EZReorder   : ShopDeluxe_OrderDetail_NEBSSubFlow.msgflow & Order Detail DFS : Aug01 Release
+3.	Order Detail Email Confirmation Kathy Template change    : Date not confirmed 
+4.	Order History Look up : DCOM-8441 : Still in Requirements : FS change : Date not confirmed
+5.	FSCWR-13 OP DBA technical error on reorders with EZ shield        : July Release QA by this weekend   : REQ0040852     
+6.	FSCWR-62 OP DBA orders with = sign not retrieved           : Date not confirmed
+7.	FSCWR-67  VRU FI Supply Orders Not Working for Some Branches  : Date not confirmed
+8.	FSCWR-112 DBA OP retrieves non-MICR items and should not      : Date not confirmed
+9.	FSCWR-183  Incorrect Product Description from Order History   : FS change : Date Not confirmed 
+
+Waiting for Dates 
+1.	Salesforce Integration of Tax and AddressVerfication Service : only changes to DP 
+2.	SFG Sterling File Gateway Migration  : Jeff Kosher 
+3.	Optional Match ACF – COMET onboarding changes 
+
+
+JPMC
+
+Product Configuration REQ0041290.bar 
+	INC0155561 : Product Config :No of Copies Text to numeric  Change is required in code 	
+	INC0164079 : Product Config Color Change ::  : Package change No code No ESQL change   RITM0041155	
+	INC0160687 : Box UOM quantity  Design needed   RITM0041420
+
+	FS Order History  REQ0040867.bar    REQ0041379 db request 
+	INC0165431  : Order Entry Date and Time appending DB2 ORDHIST
+	FSOrderHistory.esql : FSOrderHistory_tx_getOraRecords 
+	INC0164106: FS WR -183  : Whenever SOA gets an output code other than 0(success),it is still retaining the previous line item values (product information). 
+
+	Order Detail CI -> Order History Detail XSL change   REQ0041035
+	INC0150480: Provent ="DLX-WS-0110"
+	INC0135876: AddSigLine  and esql change case change 
+
+NC0160684: Image URL ProductSummary Order Detail : Katrina  
+INC0165420: Different value for MISCELLANEOUS 
+UAT: FS Ord 183 : RITM0042324 
+UAT: RITM0042198 FS ODS 
+
+Pre Prod FS Ord 183:                  CIDB_PP Schema BLDAPI  REQ0042930(RITM0043255).  SCTASK0047383
+Pre Prod FS ODS : REQ0042933(RITM0043258).  SCTASK0047386
+
+XUAT  FS Ord 183 :REQ0042750  SCTASK0047181   CIDB Schema : UACAPI   ORA_DLA00776_PROD   
+XUAT  FS ODS :     REQ0042755   SCTASK0047186     PKG_FSWEBSVC_PRODCONFIGDTLS_body.sql  
+
+Prod FS Ord 183 : REQ0042825  SCTASK0047253 RITM0043146 
+Prod FS ODS Changes:  REQ0042830  RITM0043151  SCTASK0047258  
+
+
+QA Start:     27 July
+UAT Start:   3 August  (Need to overlap QA)
+XUAT Start: 24 August (This date has been shared with JPMC)
+Production deployment is 8 September 2018.
+
+Design documents Gail, Katrina and Jerilyn  
+
+ 
+
+183 deploy to qa 
+REQ0041786_OrderHistDetRepl
+
+42309807 sSTS CHECKING NO 
+5956040   SAVINGS NO 
+
+
+Sept 08 2018 JPMC Changes
+
+Production: CHG0054266 
+
+CHG0054266_REQ0040867_FSOrderHistory_MsgFlow.mf.bar
+CHG0054266_REQ0041035_OrderHistoryDetailReply.mf.bar
+CHG0054266_REQ0041035_OrderHistoryDetailRequest.mf.bar
+CHG0054266_REQ0041290_ProductConfiguration_Aug18.mf.bar
+
+XUAT  CHG0054261 
+CHG0054261_REQ0040867_FSOrderHistory_MsgFlow.mf.bar
+CHG0054261_REQ0041035_OrderHistoryDetailReply.mf.bar
+CHG0054261_REQ0041035_OrderHistoryDetailRequest.mf.bar
+CHG0054261_REQ0041290_ProductConfiguration_Aug18.mf.bar
+
+CHG0054566_REQ0040852_OrderDetail_MsgFlow.mf.bar
+
+1.  SCTASK0047181  : CI Oracle DB   ddgdsd55  SID=UA01   UACAPI  
+2. SCTASK0047186  : FS ODS  DLA00776   SID: XUAT 
+3. RITM0041820   Authorize SOA USer ID for DB2 tables in XUAT  
+
+1 : SCTASK0047253 RITM0043146  : CI Oracle DB dla00887 Database: CID1, Schema:CIDAPI
+2:  SCTASK0047258 RITM0043151  : FS ODS DB: dla00887 SID:ECP1, Schema : ODSTAB  
+3. RITM0041820   Authorize SOA USer ID for DB2 in PROD
+
+
+JPMC DB Changes execution of Scripts 
+Enterprise_Services_Database
+
+
+CHG0056240 - XUAT 
+CHG0056439 - Prod 
+CHG0056439_REQ0043814_PlaceOrder_Sep2018.mf.bar
+CHG0056439_REQ0043814_CIMessageSet.ms.bar
+CHG0056439_REQ0044739_OrderDetail_MsgFlow.mf.bar
+
+
+ Kimery Roger Infra team 
+March FS Release 2019 
+
+REQ0048369_ FSOrderHistory_MsgFlow.mf.bar
+ 
+ April 2019 Release 
+ 
+ WR-210 WR-211 
+ 
+ XUAT FS MARCH 2019 
+ CHG0059702_REQ0048369_ FSOrderHistory_MsgFlow.mf.bar
+ D:\BAR_FILES\XUAT\2019\March\CHG0059702\CHG0059702_REQ0048369_FSOrderHistory_MsgFlow.mf.bar
+ PRODUCTION FS MARCH 2019 
+ 
+ CHG0059691_REQ0048369_ FSOrderHistory_MsgFlow.mf.bar
+
+Production Incident: INC0212753 – Trademark ™ symbol is not displayed in Order history page
+Message Flow : FS OrderHistory Message Flow
+Author : K307266 Release: FS March 2019 Release
+New SP: SP_GET_PROD_DETAILS_RAW 
+ 

@@ -1,0 +1,64 @@
+
+ 
+ 
+ IIB V10 
+ MQ 8 vs mq 9 new family features non IBM jre runtime environments 
+ 
+ 
+ 
+ IBM App Connect Enterprise V11.0 delivers an integration platform to support the needs of enterprises that need to embrace digital opportunities by using cloud technologies to build hybrid applications and data architectures
+ 
+ industry-trusted IBM Integration Bus (IIB) technology with new cloud native technologies of IBM App Connect Professional. App Connect Enterprise delivers a platform
+ 
+ advantage of API-driven architectures, connect cloud-based applications, or quickly utilize artificial intelligence (AI) technologies to extend the value and investment in their existing data and systems.
+ 
+ Extended connectivity across Cloud Services, Software as a Service (SaaS), cloud platforms, and on-premises applications
+Lightweight integration runtimes for cloud native and container-based deployment - Kubernetes 
+
+Runs as a truly, cloud native application with tailored architecture for use in container technologies, such as Docker that run under a Kubernetes framework. 
+
+Docker images that  can then be easily scaled and managed by using orchestration frameworks, such as Kubernetes
+
+
+
+
+XML 
+DFDL, 
+JSON 
+
+Industry formats 
+
+Service oriented 
+Event
+REST ful 
+data driven 
+file based or batch or real time 
+
+
+Hybrid integration 
+Application integration.
+API management
+Messaging. IBM MQ 
+Secure gateway. IBM DataPower®
+High-speed transfer. IBM Aspera
+
+Charge -metric 
+
+
+    Processor value unit (PVU)
+    Virtual Processor Core
+
+1050   07/02
+646    07/02 
+1096 
+
+Total 2800 
+
+850 
+150 
+bofa 80
+cone 700
+chase 530 
+OS 170 
+Total 2480 
+	
