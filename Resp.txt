@@ -1,0 +1,12 @@
+Analysi sof the proposed interface requirements and confirm their feasibility
+Active involvement in the architectural design of the enterprise services and frameworks
+Gather technical integration requiremnets related to IBM Integration Bus, IBM WebSphere MQ  IBM DataPower and IBM API COnnect 
+Design and develop message flows in IBM Integration bus
+Design and develop services in IBM DataPower
+Design and Develop APIs using IBM API COnnect 
+Unit test mesage flows and create test plans for Function testing 
+Unit test APIs and Services and create test plans for Functiont testing 
+Provide daily weekly status reports
+Support User Acceptance testing of the projects developed using IBM Integration Stack 
+support Project deployments developed on the IBM integration stack
+Forecasting and analysis of Enterprise Digital modernazation for the client to move away from IBM stack to open source API technologies
